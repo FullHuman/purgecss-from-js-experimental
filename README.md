@@ -11,7 +11,6 @@
 
 Get the selectors of a JS file.  
 This is an experimental js extractor for purgecss. It uses prepack to partially evaluate the javascript code.
-This has the effect of concatenate string that could be css selectors.
 
 ## Install
 
