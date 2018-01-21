@@ -1,0 +1,46 @@
+{
+  "name": "purgecss-from-js",
+  "version": "1.0.0",
+  "description": "Js extractor for purgecss - get selectors from a js file",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx rollup -c rollup.config.js -w",
+    "build": "npx rollup -c rollup.config.js",
+    "test": "npx jest __tests__/index.js",
+    "lint": "npx eslint -c .eslintrc index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullHuman/purgecss-from-js.git"
+  },
+  "keywords": [
+    "purgecss-from",
+    "purgecss",
+    "selectors",
+    "css",
+    "js"
+  ],
+  "author": "Ffloriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FullHuman/purgecss-from-js/issues"
+  },
+  "homepage": "https://github.com/FullHuman/purgecss-from-js#readme",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "codacy-coverage": "^2.0.3",
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4",
+    "rollup": "^0.54.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-node-resolve": "^3.0.2"
+  },
+  "dependencies": {
+    "prepack": "^0.2.19"
+  },
+  "engines": {
+    "npm": ">=5.2.0",
+    "node": ">=4.4.0"
+  }
+}
