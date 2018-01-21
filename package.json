@@ -1,8 +1,10 @@
 {
   "name": "purgecss-from-js",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Js extractor for purgecss - get selectors from a js file",
-  "main": "index.js",
+  "main": "./lib/purgejs.js",
+  "module": "./lib/purgejs.es.js",
+  "jsnext:main": "./lib/purgejs.es.js",
   "scripts": {
     "dev": "npx rollup -c rollup.config.js -w",
     "build": "npx rollup -c rollup.config.js",
